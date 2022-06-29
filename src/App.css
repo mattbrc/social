@@ -1,0 +1,56 @@
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: #0F511E;
+}
+
+.sub-text {
+  font-size: calc(4px + 2vmin);
+}
+
+.App-link {
+  color: #0f511e;
+}
+
+.cta-button {
+  height: 45px;
+  border: 0;
+  width: auto;
+  padding-left: 40px;
+  padding-right: 40px;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 12px;
+  font-weight: bold;
+  color: #0F511E;
+}
+
+.connect-button {
+  background-color: #ABFE2D;
+  font-size: 18px;
+  background-size: 200% 200%;
+  margin: 20px 10px;
+  border-radius: 15px;
+  padding: 0px 2rem;
+}
+
+.not-connected-container {
+  background-color: #FDFDFD;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  max-width: 75%;
+  justify-content: center;
+  align-items: center;
+  padding: 1em;
+  border-radius: 30px;
+}
