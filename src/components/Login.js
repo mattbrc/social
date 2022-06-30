@@ -1,4 +1,5 @@
 import React from "react"
+import { useEffect, useState } from "react";
 
 function Login() {
     // Create a function to render if Lens account is not connected yet
@@ -20,8 +21,7 @@ function Login() {
             Sign in with Lens
             </button>
             <div className='sub-text'>
-                <p>Don't have a Lens profile yet?</p>
-                <p>Get one &nbsp;
+                <p>Get your Lens profile &nbsp;
                     <a
                         className="App-link"
                         href="https://claim.lens.xyz/"
