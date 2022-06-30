@@ -43,7 +43,7 @@
   padding: 0px 2rem;
 }
 
-.not-connected-container {
+.home-container {
   background-color: #FDFDFD;
   display: flex;
   flex-direction: column;
@@ -54,3 +54,22 @@
   padding: 1em;
   border-radius: 30px;
 }
+
+.footer-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 30px;
+}
+
+.footer-text {
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.twitter-logo {
+  width: 35px;
+  height: 35px;
+}
+

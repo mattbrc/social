@@ -1,12 +1,18 @@
 import './App.css';
-import Login from "./components/Login";
+import Home from "./components/Home";
+import Footer from "./components/Footer";
+import Header from "./components/Header";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <Login />
-      </header>
+    <div className="app-container">
+      <Header />
+        <div className="App">
+        <header className="App-header">
+          <Home />
+          <Footer />
+        </header>
+      </div>
     </div>
   );
 }
